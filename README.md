@@ -76,3 +76,8 @@ HL7OutboundSocketInterface hl7OutboundSocketInterface = new HL7OutboundSocketInt
 hl7OutboundSocketInterface.StartAsync();
 hl7OutboundSocketInterface.EnqueueMessage("MSH|...");
 ```
+
+
+## Contribute Back!
+
+Is there a feature missing that you'd like to see, or found a bug that you have a fix for? Or do you have an idea or just interest in helping out in building the library? Let us know and we'd love to work with you. 
