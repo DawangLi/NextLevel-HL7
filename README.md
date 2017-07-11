@@ -1,6 +1,6 @@
 ## Welcome!
 
-The NextLevel HL7 API enables .NET interface developers to send and receive HL7 messages via a simple client and server architecture.
+The NextLevel HL7 API enables .NET interface developers to send and receive HL7 messages via a simple client server architecture.
 
 ## What's in the API:
 
