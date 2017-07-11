@@ -21,12 +21,12 @@ Is there a feature missing that you'd like to see, or found a bug that you have 
 
 
 ## Getting Started
+
+
 1: Create an inbound HL7 consumer using MLLP frames over TCP/IP sockets
 ```c#
 BaseHL7Interface hl7InboundSocketInterface = new HL7InboundSocketInterface("Inbound Socket Sample", 2575);
 hl7InboundSocketInterface.MessageEvent += OnMessageEvent;
-hl7InboundSocketInterface.StatusEvent += OnStatusEvent;
-hl7InboundSocketInterface.ErrorEvent += OnErrorEvent;
 hl7InboundSocketInterface.SendAcknowledgements = false;
 hl7InboundSocketInterface.StartAsync();
 ```
@@ -68,7 +68,7 @@ foreach (KeyValuePair<string, int> messageSuccess in statistics.Successes)
    Console.WriteLine("Interface Message {0}: {1}", messageSuccess.Key, messageSuccess.Value);
 ```
 
-6: Scan a file system for HL7 messages
+6: Alternatively, scan a file system for HL7 messages
 ```c#
 BaseHL7Interface hl7InboundFileSystemInterface = new HL7InboundFileSystemInterface("File System Sample", @"C:\", "hl7");
 hl7InboundFileSystemInterface.MessageEvent += OnMessageEvent;
