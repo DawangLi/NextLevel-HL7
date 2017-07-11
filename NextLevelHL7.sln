@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextLevelHL7", "NextLevelHL7\NextLevelHL7.csproj", "{33084EB9-9564-4ABB-B5B1-EB4F8168E521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextLevelHL7.Samples", "NextLevelHL7.Samples\NextLevelHL7.Samples.csproj", "{EEA2C72E-3CE3-4ED8-A19B-CE237C4E812D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33084EB9-9564-4ABB-B5B1-EB4F8168E521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33084EB9-9564-4ABB-B5B1-EB4F8168E521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33084EB9-9564-4ABB-B5B1-EB4F8168E521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33084EB9-9564-4ABB-B5B1-EB4F8168E521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA2C72E-3CE3-4ED8-A19B-CE237C4E812D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA2C72E-3CE3-4ED8-A19B-CE237C4E812D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA2C72E-3CE3-4ED8-A19B-CE237C4E812D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA2C72E-3CE3-4ED8-A19B-CE237C4E812D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

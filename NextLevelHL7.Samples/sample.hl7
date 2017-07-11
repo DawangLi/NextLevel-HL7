@@ -1,0 +1,10 @@
+﻿MSH|^~\&|HNAM||MULTI|MULTI|20170123456789||ADT^A04|Q0000000000000000000000000000||2.3||||||8859/1
+EVN|A04|20170101010101|||ABC12345^Smith^Joe^L^^^^^External Id^Personnel^^^External Identifier
+PID|1|843676^^^MRN^MRN|112233^^^MRN^MRN^SMS|112233^0^^HNAC_AAAAAA^Patient ID - Classic OCF^CD:111111|SMITH^^JOHN^^^^Current||00000000|M||01|100 Main Street^^Springfield^IL^62704-0000^USA^home^^CHR~PO BOX 1000^^Springfield^IL^62704-0000^USA^Alternate^^CHR~^^^CA^^USA^Birth||(000)000-0000^Home^tel~(000)000-0000^Alternate~(000)000-0000^Pager personal~^^email^EMAIL@GMAIL.COM~^^email^Home Phone||33|M|NOP|555555555^^^FIN^FIN NBR|222333444|||15||No|0|Declined
+PD1||||AAA^Smith^John^^MD^^^^MNEMONIC~12345^Smith^John^^^^^^DocNbr|||N
+ZPI|1|||||||||11223344^Smith^John^^MD|||NOP
+ZEI|1|1|Employer Name|1111 S 1st Street^^Springfield^IL^62704^USA^^^MAC|(000)000-0000||||||68H
+NK1|1|SMITH^JANE^D^^^^Current|19|100 Main Street Dr^^Chatham^IL^62704-0000^USA^^^SAO|(555)555-5555~(555)555-5555|(000)000-0000|Emergency Contact||||||Sample School Dist 5|||11122233||||33
+PV1|1|E|EMR^^^10^^CD:772^MMC^2177883030|1|||ER^EMERGENCY ROOM^PHYSICIAN^^^^^^Community Doctor Number~00000^EMERGENCY ROOM^PHYSICIAN^^^^^^Doctor Nbr||||||||||ER^EMERGENCY ROOM^PHYSICIAN^^^^^^Community Doctor Number~00000^EMERGENCY ROOM^PHYSICIAN^^^^^^Doctor Nbr|ER|11111111|15|||||||||||||||||||10||A|||1234567890
+PV2||||||||||0|||||xxxxx||||||||^^222222
+ZLO|1|ED
