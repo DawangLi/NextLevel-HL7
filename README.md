@@ -15,6 +15,11 @@ The NextLevel HL7 API enables .NET interface developers to send and receive HL7 
 *   Provides a Task-based Asynchronous Programming model for connection management
 *   Leverages .NET dynamic and implicit conversion for a 'developer humane' interface
 
+## Contribute Back!
+
+Is there a feature missing that you'd like to see, or found a bug that you have a fix for? Or do you have an idea or just interest in helping out in building the library? Let us know and we'd love to work with you. 
+
+
 ## Using Next Level HL7
 1: Create an inbound HL7 consumer using MLLP frames over TCP/IP sockets
 ```c#
@@ -77,7 +82,3 @@ hl7OutboundSocketInterface.StartAsync();
 hl7OutboundSocketInterface.EnqueueMessage("MSH|...");
 ```
 
-
-## Contribute Back!
-
-Is there a feature missing that you'd like to see, or found a bug that you have a fix for? Or do you have an idea or just interest in helping out in building the library? Let us know and we'd love to work with you. 
