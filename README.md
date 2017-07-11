@@ -13,7 +13,7 @@ The NextLevel HL7 API enables .NET interface developers to send and receive HL7 
 ## Why use this API?
 *   Next Level HL7 is built for thread-safety.  Multiple clients and servers may exist within a single AppDomain
 *   Provides a Task-based Asynchronous Programming model for connection management
-*   Leverages .NET dynamic and implicit conversion for a 'developer humane' interface
+*   Leverages .NET dynamic and implicit conversion for simplified parsing of nested HL7 fields.
 
 ## Contribute Back!
 
