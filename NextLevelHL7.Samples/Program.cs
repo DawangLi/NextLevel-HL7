@@ -34,7 +34,7 @@ namespace NextLevelHL7.Samples
             hl7InboundFileSystemInterface.StartAsync();
 
             // sample #4: show statistics for active interfaces
-            Thread.Sleep(4000); // wait five seconds since previous HL7 logic is async
+            Thread.Sleep(4000); // wait a few seconds for async processing to complete before reporting statistics
             InterfaceStatistics statistics = hl7InboundSocketInterface.Statistics;
             Console.WriteLine("[Statistics]: Interface Start Time: {0}", statistics.StartDateTime.ToString());
             Console.WriteLine("[Statistics]: Interface Uptime: {0}s", statistics.UpTime.TotalSeconds);
@@ -93,13 +93,15 @@ namespace NextLevelHL7.Samples
                 case "ADT^A02":
                 case "ADT^A03":
                 case "ADT^A04":
-                    /// demonstrates how to read an HL7 ADT ("Admit Dischrage Transfer") message.  
+                    // demonstrates how to read an HL7 ADT ("Admit Dischrage Transfer") message.  
                     sampleMessageProcessor.HandleADT(message);
                     break;
                 case "ORU^R01":
+                    // demonstrates how to read an HL7 ORU ("Observation Result") message
                     sampleMessageProcessor.HandleORU(message);
                     break;
                 case "ADT^A34":
+                    // demonstrates how to read an HL7 ADT Patient Merge message
                     sampleMessageProcessor.HandleMerge(message);
                     break;
                 default:
